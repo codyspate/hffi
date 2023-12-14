@@ -39,6 +39,8 @@ export default function Home() {
   return (
     <div className="w-full h-full relative z-0">
       <video className="h-full w-full mx-auto" ref={videoRef} autoPlay muted />
+      <div style={{ paddingBottom: "5000000px" }}></div>
+      <p>No friends here.</p>
     </div>
   );
 }
